@@ -74,18 +74,16 @@ const modal = document.getElementById('modal');
 const openModal = document.getElementById('openModal');
 const closeModal = document.getElementById('closeModal');
 
+function func1(){
+     modal.style.display = 'block';
+}
 
-openModal.addEventListener('click', () => {
-    modal.style.display = 'block';
-});
-
-
+// openModal.addEventListener('click', () => {
+//     modal.style.display = 'block';
+// });
 closeModal.addEventListener('click', () => {
     modal.style.display = 'none';
 });
-
-window.addEventListener('click', (event) => {
-    if () {
-        modal.style.display = 'none';
-    }
-});
+// window.addEventListener('click', (event) => {
+//         modal.style.display = 'none';
+// });
